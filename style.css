@@ -1,3 +1,43 @@
 body {
-  font-family: "VCROSDMono", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  color: #b2cbce;
+  background-color: #031e21;
+  line-height: 1.5;
+}
+
+a {
+  color: #68a8e4;
+}
+
+img {
+  width: 150px;
+}
+
+.bio {
+  /* display: flex; */
+  margin-top: 3em;
+}
+
+.bio-image {
+  margin-right: 20px;
+}
+
+.bio-description {
+  font-size: 0.9rem;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  height: 100vh;
+}
+
+label {
+  font-weight: bold;
+}
+
+span {
+  font-size: 0.8rem;
 }
