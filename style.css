@@ -16,7 +16,7 @@ img {
 }
 
 .bio {
-  /* display: flex; */
+  display: flex;
   margin-top: 3em;
 }
 
