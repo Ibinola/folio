@@ -8,6 +8,17 @@ body {
   line-height: 1.5;
 }
 
+.icons {
+  width: 20px;
+  border: 1px solid #f5f5f5;
+  margin-right: 2em;
+}
+
+.list-icons {
+  list-style: none;
+  display: flex;
+}
+
 a {
   color: #68a8e4;
 }
