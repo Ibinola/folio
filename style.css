@@ -28,7 +28,7 @@ img {
 }
 
 .bio {
-  /* display: flex; */
+  display: flex;
   margin-top: 3em;
 }
 
@@ -42,8 +42,11 @@ img {
 
 .container {
   margin: auto;
-  width: 600px;
-  height: 100vh;
+  width: 100%;
+  max-width: 560px;
+  min-height: 100vh;
+  position: relative;
+  padding: 2rem;
 }
 
 label {
@@ -53,3 +56,16 @@ label {
 span {
   font-size: 0.8rem;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+/* @media screen and (max-width: 500px) {
+  .bio {
+    display: block;
+  }
+} */
